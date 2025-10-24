@@ -1,0 +1,12 @@
+
+# 钢材表面缺陷检测数据集
+path: D:\steel
+train: train_images
+val: val_images
+test: test_images
+
+# 类别数量
+nc: 4
+
+# 类别名称
+names: ['Class1', 'Class2', 'Class3', 'Class4']

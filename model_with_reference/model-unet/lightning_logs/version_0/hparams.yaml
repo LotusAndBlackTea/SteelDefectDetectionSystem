@@ -1,0 +1,16 @@
+config:
+  augmentation: true
+  batch_size: 8
+  checkpoint_dir: checkpoints/
+  encoder: efficientnet-b4
+  epochs: 100
+  image_size: !!python/tuple
+  - 256
+  - 1600
+  learning_rate: 0.001
+  model_architecture: unet++
+  num_workers: 8
+  preprocessed_data_path: dataset/preprocessed_data.pkl
+  train_image_dir: dataset/train_images
+  use_amp: true
+  weight_decay: 0.0001
